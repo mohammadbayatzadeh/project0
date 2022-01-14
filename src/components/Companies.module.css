@@ -1,0 +1,11 @@
+.companies {
+    box-sizing: border-box;
+    padding: 130px 270px 0 0;
+}
+.container{
+    width: 500px;
+    height: 700px;
+    border: 2px double black;
+    background-color: burlywood;
+    margin-bottom: 50px;
+}

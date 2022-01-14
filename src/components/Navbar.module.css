@@ -1,0 +1,80 @@
+
+.navbar {
+    width: 80vw;
+    height: 60px;
+    position:fixed;
+    left: 0;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    color: #363636;
+    padding: 5px;
+    user-select: none;
+    border-bottom-right-radius: 10px;
+    box-shadow: 8px 8px 16px #a1a1a1,
+        -8px -8px 16px #ffffff;
+}
+
+.profile {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-left: 2px solid #7c73e6;
+}
+
+.profile img {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #dc2f2f;
+    border-radius: 50%;
+}
+
+.navbar h3 {
+    font-size: 1.4vw;
+    padding: 5px 5px 0px 5px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.navbar h4 {
+    font-size: 1vw;
+    padding: 5px 10px;
+    margin: 0;
+    font-weight: 500;
+    color: #363636c4;
+}
+
+.bell, .chat {
+    width: 30px;
+    padding: 10px 30px;
+    border-left: 2px solid #7c73e6;
+}
+
+.searchbar {
+    width: 35%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    background-color: #d9dad7;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 8px 4px 16px #a1a1a1,
+        -8px -4px 16px #ffffff;
+}
+
+.searchbar img {
+    width: 40px;
+    padding: 10px;
+}
+
+.searchbar input {
+    background: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #363636c4;
+}
